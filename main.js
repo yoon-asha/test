@@ -1,25 +1,5 @@
-// 산술 연산자(arithmetic operator)
+const str = 'ekal5652@naver.com'
 
-console.log(1 + 2)
-console.log(5 - 7)
-console.log(3 * 4)
-console.log(10 / 3)
-console.log(7 % 5)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(str.match(/.+(?=@)/)[0])
 
 
